@@ -51,3 +51,30 @@
 .grid-4{
   background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
 }
+
+.our-clients{
+  background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+
+.client-group{
+  position: relative;
+}
+
+.client-group .special-client{
+  position: absolute;
+  top: 5rem;
+  opacity: 1;
+  right:5rem;
+}
+
+.client{
+  position: relative;
+  opacity: 0.4;
+}
+
+
+.client img{
+  position: absolute;
+  top:-24px;
+  left: -24px;
+}
